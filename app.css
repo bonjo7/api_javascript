@@ -1,0 +1,35 @@
+.joke-list{
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid rgb(52,156,154);
+}
+.header{
+    background: rgb(52,156,154);
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px #cecdcd;
+}
+
+.label{
+    color: rgb(52,156,154);
+}
+
+.fa{
+    color: rgb(52,156,154);
+}
+
+.font{
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+    .header {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header {
+      font-size:25px;
+    }
+  }
